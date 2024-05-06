@@ -6,5 +6,7 @@ const port = 8000;
 app.use(express.json());
 
 app.listen(port, () =>
-    console.log("rodando")
-);
+    console.info(
+        `Server running on http://localhost:${port}`
+));
+    
