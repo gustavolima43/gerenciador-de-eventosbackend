@@ -2,9 +2,9 @@
   "name": "gerenciador-de-eventos",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
-    "dev": "nodemon ./server"
+    "dev": "tsx ./src/app.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,9 @@
     "express": "^4.19.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "tsc": "^2.0.4",
+    "tsx": "^4.9.3",
+    "typescript": "^5.4.5"
   }
 }
